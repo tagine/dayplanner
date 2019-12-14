@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    $(".saveBtn").
+    $(".saveBtn").on("click, function(){
+        console.log($this);
+    });
     $("#currentday").text(moment)();
 
 });
