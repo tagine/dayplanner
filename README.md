@@ -1,4 +1,19 @@
-# Unit 05 Third-Party APIs Homework: Day Planner
+<!-- Plan 
+
+
+-User needs to be able to make entries into a text box
+-Have them appended upon clicking the save button
+-Save button will utlize localStorage
+-But also disable default so they can save with enter
+-User needs to be able to empty the fields
+-Timezone needs to be set to eastern time zone
+-Date needs to display at the top
+
+Create different containers for time bock
+
+-->
+
+<!-- # Unit 05 Third-Party APIs Homework: Day Planner
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
@@ -84,4 +99,4 @@ You are required to submit the following:
 * The URL of the GitHub repository
 
 - - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. -->

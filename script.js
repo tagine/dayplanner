@@ -8,4 +8,10 @@ $(document).ready(function(){
 });
     $("#currentday").text(moment)();
 
+    moment().format('MMMM Do YYYY, h:mm:ss a');
+
 });
+
+
+
+
