@@ -1,3 +1,21 @@
+
+# Dayplanner app
+
+## This is a simple dayplanner
+
+## Features
+
+-Works for a single day
+-Saves values in browser
+-Items reappear if browser is refreshed
+-Timezone is set to user's local timezone
+-Each timeslot represents one hour
+
+## User story
+-User only needs a planner for one day
+-User is interested in using it to plan out 9am-5pm hours
+
+
 <!-- Plan 
 
 
