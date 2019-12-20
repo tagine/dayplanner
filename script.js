@@ -4,9 +4,9 @@ $(document).ready(function () {
       console.log(id)
         var value = $("#text"+ id).val()
         console.log(value)
-        var time = $(this).parent().attr("id");
-console.log(time)
-console.log(value)
+        var time = $(this).attr("id");
+        console.log(time)
+        console.log(value)
         localStorage.setItem(time, value);
     });
     $("#currentDay").text(moment().format("h:mma D MMM YYYY "));
@@ -40,7 +40,8 @@ console.log(value)
 
         }
         
-        // var iscurrentDate = moment(moment().format(i)).isAfter(moment().format("HH"), "hour");
+        var todo = localStorage.getItem(i)
+        console.log(todo)
 
         // console.log(iscurrentDate);
 
@@ -49,19 +50,16 @@ console.log(value)
         <div class="space ${isBefore ? "past" : ""} ${isSame ? "present" : ""} ${isAfter ? "future" : ""}">
         <div id="hour-${i}" class="row time-block"></div>
         <div class="col-md-10 hour">${moment(i + ":00", 'HH:mm').format('h:mm a')}</div>
-        <textarea class="col-md-10 description" id="text${i}"></textarea>
-         </div>
+        <textarea class="col-md-10 description" id="text${i}">
+        ${todo}
+        </textarea>
         <button class="btn saveBtn col-md-1" id=${i}>
         <i class="fas fa-save"></i>
         </button>
-
+        </div>
         `)
 
     }
-
-
-
-
 
 
 });
