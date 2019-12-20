@@ -51,11 +51,11 @@ $(document).ready(function () {
         <div id="hour-${i}" class="row time-block"></div>
         <div class="col-md-10 hour">${moment(i + ":00", 'HH:mm').format('h:mm a')}</div>
         <textarea class="col-md-10 description" id="text${i}">
-        ${todo}
         </textarea>
         <button class="btn saveBtn col-md-1" id=${i}>
         <i class="fas fa-save"></i>
         </button>
+
         </div>
         `)
 

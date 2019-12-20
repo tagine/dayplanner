@@ -15,6 +15,8 @@
 -User only needs a planner for one day
 -User is interested in using it to plan out 9am-5pm hours
 
+![Preview](dayplannerpreview.png)
+
 
 <!-- Plan 
 
